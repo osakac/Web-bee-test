@@ -24,7 +24,7 @@ for (const link of links) {
 }
 
 const routes = {
-  "": "/pages/activity.html",
+  // "": "/pages/activity.html",
   activity: "/pages/activity.html",
   map: "/pages/map.html",
   timer: "/pages/timer.html",
