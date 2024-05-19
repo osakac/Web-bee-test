@@ -24,11 +24,11 @@ for (const link of links) {
 }
 
 const routes = {
-  // "": "/pages/activity.html",
-  activity: "/pages/activity.html",
-  map: "/pages/map.html",
-  timer: "/pages/timer.html",
-  404: "/pages/404.html",
+  "": "./pages/activity.html",
+  activity: "./pages/activity.html",
+  map: "./pages/map.html",
+  timer: "./pages/timer.html",
+  404: "./pages/404.html",
 }
 
 const handleLocation = async () => {
