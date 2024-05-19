@@ -1,0 +1,82 @@
+:root,
+[data-bs-theme="light"] {
+  --white: #fff;
+  --bg: #f1f1f1;
+  --bg2: #fafafa;
+  --grey: #d3d8de;
+  --second-tx: #8f8f8f;
+  --black: #505050;
+  --blue: #5095ec;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.header__top-wrapper {
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2px;
+}
+
+.header__top-back-btn {
+  margin-right: 8px;
+  margin-top: -1px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__bot-wrapper {
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2px;
+  background: var(--bg2);
+}
+
+.header__bot-link {
+  padding: 10px 16px;
+}
+
+.header__bot-link:hover {
+  background: var(--bg);
+}
+
+.header__bot-settings-link {
+  padding: 8px 8px 9px;
+}
+
+.header__bot-settings-link:hover {
+  background: var(--bg);
+}
+
+.header__bot-link--active {
+  background: var(--bg);
+}
+
+.main-wrapper {
+  background: var(--bg);
+}
+
+.resume {
+  width: 264px;
+  flex-shrink: 0;
+}
+
+.timer__time {
+  font-size: 18px;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+}
+
+@media screen and (max-width: 991px) {
+  .resume {
+    display: none;
+  }
+}
